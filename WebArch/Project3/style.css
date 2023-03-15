@@ -1,0 +1,46 @@
+*{
+    font-family: :sans-serif;
+}
+
+
+h1{
+    color: brown;
+    font-family: "sans-serif";
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+    transition: color 0.5s
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: deepskyblue;
+}
+
+.obraz{
+    width: 1000px;
+    border-radius:25px; 
+}
+
+#obramowanie{
+/*    background-color: green;*/
+    display: inline-block
+}
+
+#podpis{
+    font-size: 200%;
+    text-align: center;
+}
+
+body{
+    background-image: url(Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}

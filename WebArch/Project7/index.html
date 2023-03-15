@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Kurs HTML i CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="Images/favicon.ico">
+    <meta name="description" content="Kurs YouTube">
+    <meta name="keywords" content="kurs, html">
+    <meta name="author" content="Ja">
+</head>
+
+<body>
+    <div id="container">
+        <header id="header"><span id="title">Kurs HTML i CSS</span></header>
+        <nav id="navbar">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+        <main id="main">
+            <article id="content">
+                <section>
+                    <p id="akapit1"><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in ligula quam. Donec ac vehicula augue. Quisque vitae ipsum ut ligula blandit ultricies. Curabitur fringilla metus nec tellus vehicula malesuada. Duis rutrum odio ex, non scelerisque turpis porttitor et. Sed ultrices sem iaculis nulla vestibulum aliquet. Quisque viverra nulla ac enim posuere venenatis. Phasellus dapibus tempor dolor pulvinar congue. Nullam fermentum non eros in mattis. Ut euismod fermentum mattis. Phasellus et faucibus turpis. Aliquam consequat, diam et rutrum mattis, nulla orci vulputate eros, id condimentum nisi quam eu lectus. Nam et mollis libero. Pellentesque eleifend fermentum magna, ac porta tellus cursus sed. Suspendisse non elit orci.</q></p>
+                </section>
+                <section>
+                    <p id="akapit2">Pellentesque consectetur sem id vulputate tincidunt. Donec elit diam, rhoncus lobortis nunc et, euismod feugiat tortor. Proin at tristique nunc. Sed rutrum justo nec ipsum porttitor accumsan. Mauris pharetra vehicula odio, in ullamcorper ex vestibulum ut. Vivamus gravida libero ac nulla finibus rutrum. Fusce non nibh varius, pretium diam ut, suscipit nulla. Praesent odio augue, cursus sit amet sapien ac, congue pulvinar ligula. Morbi eget viverra purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sed sollicitudin eros.</p>
+                </section>
+            </article>
+            <aside id="sidemenu">
+                <ul>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+
+                </ul>
+
+            </aside>
+        </main>
+        <footer id="footer">
+            <span>Wszelkie prawa zastrzeżone.</span><br><br>
+            <span>Kontakt:</span>
+            <form action="" method="get">
+                <p>Text: <input type="text" name="nazwa" value="Jan Kowalski" size="20" maxlength="10"></p>
+                <p>Email: <input type="email" name="nazwa" required></p>
+                <p>Password: <input type="password" name="nazwa" placeholder="Podaj hasło"></p>
+                <p>Number: <input type="number" name="nazwa"></p>
+                <p>Date: <input type="date" name="nazwa"></p>
+                <p>Płeć:</p>
+                <p><label><input type="radio" name="plec" value="kobieta" checked="checked">Kobieta </label></p>
+                <p><label><input type="radio" name="plec" value="mężczyzna">Mężczyzna</label> </p>
+                <p>Języki programowania:</p>
+                <p><input type="checkbox" name="języki" value="C">C</p>
+                <p><input type="checkbox" name="języki" value="Java">Java</p>
+                <p><input type="checkbox" name="języki" value="Python">Python</p>
+                <p>
+                    <select name="nazwa" size="4" multiple="multiple">
+                        <optgroup label="Sekcja 1">
+                            <option selected="selected">1 opcja</option>
+                            <option>2 opcja</option>
+                        </optgroup>
+                        <optgroup label="Sekcja 2">
+                            <option>3 opcja</option>
+                            <option>4 opcja</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <textarea name="nazwa" rows="10" cols="40" placeholder="Wpisz tekst"></textarea>
+
+                <p><input type="submit" value="Wyślij"><input type="reset" value="Restartuj"></p>
+            </form>
+        </footer>
+    </div>
+</body></html>
